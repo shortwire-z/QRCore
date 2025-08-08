@@ -1,7 +1,7 @@
 
 # QRCode generator GUI
 
-A simple QRCode generator made with python, using qrcode and Tkinter libraries.
+A simple QRCode generator (and reader) made with python, using qrcode and Tkinter libraries.
 
 
 ## License
@@ -11,9 +11,10 @@ A simple QRCode generator made with python, using qrcode and Tkinter libraries.
 
 ## Features
 
-- simple interface
+- Simple interface
 - QRcode generation from a text input
 - Save your generated QRCode
+- Can now read QRCodes (not only the ones that you generate)
 
 
 ## Installation
@@ -26,3 +27,4 @@ To start the project simply execute main.py
 ## Roadmap
 
 - 08/08/2025 | Project is born !
+- 08/08/2025 | 2.0.0 comes out with a QRCode reader
