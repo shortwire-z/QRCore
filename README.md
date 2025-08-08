@@ -1,7 +1,7 @@
 
 # QRCode generator GUI
 
-A simple youtube downloader made using python, made using pytubefix and tkinter libraries.
+A simple QRCode generator made with python, using qrcode and Tkinter libraries.
 
 
 ## License
