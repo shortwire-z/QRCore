@@ -1,2 +1,28 @@
-# QRCore
-A small Python project to generate QRCode with a text given by the user. Meant to be used for links but you can do whatever you want to. After the QRCode is generated, you can save it in your files if needed. Don't hesitate to suggest ideas to improve it ! Enjoy !
+
+# QRCode generator GUI
+
+A simple youtube downloader made using python, made using pytubefix and tkinter libraries.
+
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
+
+## Features
+
+- simple interface
+- QRcode generation from a text input
+- Save your generated QRCode
+
+
+## Installation
+
+You may need to install some requirements :
+Do it with pip install -r requirements.txt
+To start the project simply execute main.py
+
+    
+## Roadmap
+
+- 08/08/2025 | Project is born !
