@@ -1,6 +1,6 @@
+import qrcode
 from tkinter import *
 from PIL import Image, ImageTk
-import qrcode
 from tkinter.filedialog import asksaveasfilename
 
 
@@ -41,12 +41,12 @@ def generate_qrcode():
     def save_qr():
         file_path = asksaveasfilename(defaultextension=".png",
                                        filetypes=[("PNG files", "*.png")],
-                                       title="Enregistrer le QR Code")
+                                       title="Save your generated QR Code")
         if file_path:
             qr_window.qr_img.save(file_path)
 
     # Save button
-    save_button = Button(qr_window, text="Enregistrer", font="Courrier, 12", bg="#444444", fg="white", command=save_qr)
+    save_button = Button(qr_window, text="Save", font="Courrier, 12", bg="#444444", fg="white", command=save_qr)
     save_button.pack(pady=10)
 
 
